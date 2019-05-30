@@ -14,7 +14,8 @@ function setup() {
 
 function draw() {
   // put drawing code here
-  background(255,0);
+  background(255,255);
+
   fill(255,0,0);
   ellipse(posX,posY,100,100);
 
@@ -45,4 +46,6 @@ function draw() {
   }else{
     posY-=5;
   }
+  background(255,0);
+
 }
