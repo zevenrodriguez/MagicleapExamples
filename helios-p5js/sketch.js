@@ -19,7 +19,7 @@ function setup() {
 function draw() {
   // put drawing code here
   clear();
-  background(255,0);
+  //background(255,0);
   fill(255,0,0);
   ellipse(posX,posY,100,100);
 
