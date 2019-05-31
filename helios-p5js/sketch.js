@@ -11,9 +11,6 @@ function setup() {
   createCanvas(windowWidth,windowHeight);
   posX = random(width);
   posY = random(height);
-
-  img = loadImage('assets/transbackground.png');
-
 }
 
 function draw() {
@@ -50,12 +47,9 @@ function draw() {
 
   if(yDir == false){
     posY+=5;
-    image(img,0,0,windowWidth,windowHeight);
 
   }else{
     posY-=5;
-    image(img,0,0,windowWidth,windowHeight);
-
   }
 
 }
